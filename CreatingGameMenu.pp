@@ -1,3 +1,5 @@
+#include <iostream>
+#include <string>
 #include"Header.h"
 
 
@@ -50,4 +52,13 @@ void enterChoice() {
 	}
 }
 
+int main() {
+	
+		displayMenu();
+		enterChoice();
+		
+
+	return 0;
+
+}
 
