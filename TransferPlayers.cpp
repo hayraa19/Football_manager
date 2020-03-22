@@ -1,5 +1,7 @@
+#include <iostream>
 #include"TransferPlayers.h"
 #include <vector>
+#include <string>
 
 using namespace std;
 
@@ -73,5 +75,13 @@ void printVector(const vector<Transfers>& newmyTransfers) {
 
 }
 
+int main() {
+	
 
+	vector<Transfers> myTransfers;
+	fillVector(myTransfers);
+	printVector(myTransfers);
+
+	return 0;
+}
 
