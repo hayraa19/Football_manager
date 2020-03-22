@@ -1,5 +1,7 @@
+#include <iostream>
 #include"Transferings.h"
 #include <string>
+#include <vector> 
 
 using namespace std;
 
@@ -66,4 +68,17 @@ void choosePlayer(vector<string>& liverpoolTeam, vector<string>& chelseaTeam) {
 		liverpoolTeam.erase(liverpoolTeam.begin() + 4);
 	}
 }
+int main() {
 
+	
+
+	fillVector1(liverpoolTeam);
+	fillVector2(chelseaTeam);
+
+	printVector1(liverpoolTeam);
+	printVector2(chelseaTeam);
+
+	choosePlayer(liverpoolTeam, chelseaTeam);
+
+	return 0;
+}
